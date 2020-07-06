@@ -4,7 +4,26 @@ body {
     background-repeat: repeat-y;
     color: rgb(230, 230, 230);    
     padding: 0px;
+    font-family: 'Oswald', sans-serif;
 }
+
+a:link {
+    color: rgb(202, 0, 0);
+}
+
+a:visited {
+    color: rgb(202, 0, 0);
+}
+
+a:hover {
+    background-color: rgb(202, 0, 0);
+    color: gold;
+}
+
+a:active {
+    background-color: hotpink;
+    color: gold;
+} 
 
 #contentColumn {
     margin-top: 0px;
@@ -12,48 +31,85 @@ body {
     margin: auto;
     padding: 1em;
     width: 50%;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(61, 34, 34);
     min-height: 100%;
 }
 
 h1 {
+    padding-top: 1em;
     margin-top: 0px; /* thank you stack overflow */
     font-family: 'Rubik Mono One', sans-serif;
+    line-height: .8;
 }
 
 #bigTitle {
-    font-size: 3.5em;
+    font-size: 9.8vw;
+}
+
+#listTitle {
+    margin-top: .5em;
+    font-size: 8.7vw;
 }
 
 #smallTitle {
-    font-size: 1.5em;
+    font-size: 3.75vw;
+    margin-left: .25em;
+    color: gold;
 }
 
 #headerPgph {
-    padding: 0em 2em 0em 2em;
+    padding: 1em 2em 1em 2em;
+    border-radius: 15px;
+    color: rgb(230, 230, 230);
+    background-color: rgb(202, 0, 0);
 }
 
 article {
-    display: block;
-    float: clear;
+    clear: left;
+    border-radius: 15px;
+    background: #73AD21;
+    margin-top: 1em;
+    padding: .25em 0em .25em 0em; 
+    height: auto;
+    overflow: auto;
 }
 
 h2 {
     margin-bottom: 0px;
+    font-family: 'Rubik Mono One', sans-serif;
+    padding-left: 1em;
 }
 
 details {
     margin-top: 0px;
-    margin-left: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
 }
 
 img {
     float: left;
     margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
 
 .description {
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    background-color: gold;
+    color: rgb(30, 30, 30);
+    width: 100%;
+    padding: .5em 0em .5em 0em;
+}
+
+footer p {
+    margin: 0px 0px 0px 0px;
 }
