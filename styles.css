@@ -40,6 +40,8 @@ h1 {
     margin-top: 0px; /* thank you stack overflow */
     font-family: 'Rubik Mono One', sans-serif;
     line-height: .8;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 #bigTitle {
@@ -78,6 +80,8 @@ h2 {
     margin-bottom: 0px;
     font-family: 'Rubik Mono One', sans-serif;
     padding-left: 1em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 details {
